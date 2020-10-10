@@ -10,3 +10,7 @@ for x in num:
     #print(count)
 print(num)
 
+
+
+
+
