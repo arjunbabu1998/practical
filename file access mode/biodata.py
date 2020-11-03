@@ -1,0 +1,11 @@
+name=input("Enter your name : ")
+age=int(input("Enter your age : "))
+company=input("Enter your company name : ")
+designation=input("Enter your Designation : ")
+
+fp=open("sample4.txt","w")
+fp.write("Name : %d" % name)
+fp.write("\n Age : %d" % age)
+fp.write("\n Company : %d" % company)
+fp.write("\n Designation : %d" % designation)
+fp.close()
