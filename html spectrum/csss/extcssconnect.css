@@ -1,0 +1,21 @@
+#mydiv{
+    background-color: rosybrown;
+    font-size: 25px;
+}
+#p3{
+    color:blue;
+    font-size:25px;
+    font-family: "Times New Roman";
+    font-weight: 100;
+    font-style: oblique;
+    font-variant: inherit;
+    font-feature-settings: "vrt2";
+    font-stretch: semi-condensed;
+    font-kerning: initial;
+    font-variant-ligatures: historical-ligatures;
+    font-language-override: inherit;
+    font;
+}
+.c1{
+    color:red
+}

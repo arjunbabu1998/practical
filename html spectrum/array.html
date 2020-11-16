@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array</title>
+        <script src="sample.js"></script>
+    </head>
+    <body  onload="">
+        <p id="p1" onmouseover="colorchange();">Arjun</p>
+    </body>
+    <script type="text/javascript">
+        var x;
+        var names=['Ajo','Arjun','Anjana','Rince'];
+        document.getElementById('p1').innerHTML=names.toString();
+        document.getElementById('p1').innerHTML=names.join('/');
+        console.log(names);
+        names.push('ajith');
+        names.pop('ajo');
+
+    </script>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first Page</title>
+    </head>
+    <body>
+       <!-- <p id="p" onmouseout=colorchange2(); onmouseover="colorchange(); ">Arjun Babu</p>-->
+        <input id="p" type="text" onkeydown="colorchange();">
+        <input id="p1" type="text" onkeypress="colorchange2();">
+    </body>
+    <script>
+        function colorchange()
+        {
+            document.getElementById("p").style.color='red';
+        }
+        function colorchange2()
+        {
+            document.getElementById("p1").style.color='blue';
+        }
+    </script>
+</html>

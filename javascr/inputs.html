@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Page...</title>
+    </head>
+    <body>
+        <label>Enter Your First Name: </label>
+        <input id="t1" type="number" name="">
+        <label>Enter Your Last Name: </label>
+        <input id="t2" type="number" name="">
+        <label>Result </label>
+        <input id="t3" type="number" name="">
+
+        <button onclick="compute();">ACTION</button>
+
+
+    </body>
+    <script type="text/javascript">
+        function compute()
+        {
+            var a =parseInt(document.getElementById('t1').value);
+            var b =parseInt(document.getElementById('t2').value);
+            document.getElementById('t3').value=a+b;
+        }
+    </script>
+</html>
